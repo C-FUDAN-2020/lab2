@@ -116,6 +116,9 @@ IDE 可以分为日常实践和项目开发两种类型。
 
 Please write a program, input your student ID, and output greetings to the student with that student ID.
 
+constraints:
+
+    id.length <= 11
 input:
 
     > 20302010000
