@@ -123,6 +123,9 @@ output:
 
     > Hello, student 20302010000!
 
+![Question](./imgs/quest.png)
+
+
 ## Reference
 
 [1] https://code.visualstudio.com/docs/cpp/config-mingw
