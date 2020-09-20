@@ -121,7 +121,7 @@ input:
     > 20302010000
 output:
 
-    > Hello, student 20302010000.
+    > Hello, student 20302010000!
 
 ## Reference
 
