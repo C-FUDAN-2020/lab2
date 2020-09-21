@@ -22,7 +22,7 @@ IDE 可以分为日常实践和项目开发两种类型。
 日常实践型的 IDE 有：`Vim`, `Sublime Text 3`, `VSCode` 和 `Atom`。项目开发型的 IDE 有：`VS` 和 `CLion`。
 接下来会介绍下 `VSCode` 和 `CLion`，大家对其他 IDE 有兴趣的话可以课后自行百度 or Google。
 
-> 注意：如果嫌麻烦，大家可以**跳过**这一步，查看[便捷安装IDE](#便捷安装IDE)。Windows 使用 `DEV-C++`, Mac 使用 `XCode`
+> 注意：如果嫌麻烦，大家可以**跳过**这一步，查看[便捷安装IDE](#便捷安装IDE)。Windows 使用 `DEV-C++`, Mac 使用 `Xcode`
 
 1. VSCode
 
@@ -106,11 +106,33 @@ IDE 可以分为日常实践和项目开发两种类型。
 
     在 "运行" 处有具体操作选项，一般我们会使用 "编译运行"，即快捷键 `F11` 编译运行程序
 
-2. MacOS 安装 `XCode`
+2. MacOS 安装 `Xcode`
 
-    `XCode` 由 Apple Inc 开发，是开发 macOS 和 iOS 应用程序的最快捷的方式。`Xcode` 具有统一的用户界面设计，编码、测试、调试都在一个简单的窗口内完成。它支持 Objective-C、C、C++、Swift 等语言。
+    `Xcode` 由 Apple Inc 开发，是开发 macOS 和 iOS 应用程序的最快捷的方式。`Xcode` 具有统一的用户界面设计，编码、测试、调试都在一个简单的窗口内完成。它支持 Objective-C、C、C++、Swift 等语言。
 
-    你可以在 `APP Store` 内下载（上节课已经介绍过了），`XCode` 的更多功能可以参看[链接](https://developer.apple.com/cn/xcode/)探索。
+    你可以在 `APP Store` 内下载（上节课已经介绍过了）。
+    
+    打开 `Xcode`，选择 “Create a new Xcode project”
+
+    ![Xcode UI](./imgs/xcode-1.png)
+
+    接下来选择工程类型，"macOS -> Application -> Command Line Tool"
+
+    ![Xcode UI](./imgs/xcode-2.png)
+
+    之后输入项目名、组织名称、组织标识符。注意，语言请选择 C 
+
+    ![Xcode UI](./imgs/xcode-3.png)
+
+    然后会让你选择项目文件夹所在位置，请自行选择。
+
+    项目创建完成后，`Xcode` 会自动生成 `main.c` 文件，只需要点击左上角运行按钮，等待几秒就能在下方看见程序输出
+
+    ![Xcode UI](./imgs/xcode-4.png)
+
+    最后，大家可以开始编写自己的程序了～
+    
+    `Xcode` 的更多功能可以参看[链接](https://developer.apple.com/cn/xcode/)探索。
 
 ## 编写本学期第一个 C 程序
 
